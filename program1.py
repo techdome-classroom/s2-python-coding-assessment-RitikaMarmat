@@ -8,7 +8,7 @@ class Solution(object):
             stack.append(char) 
         elif char in bracket_map.keys():
             if not stack or stack[-1] != bracket_map[char]:
-                return False  # If it's a closing bracket and doesn't match the top of the stack
+                return False  
             stack.pop()  # Pop the matching opening bracket from the stack
             
     return not stack  # If the stack is empty, all brackets are matched
