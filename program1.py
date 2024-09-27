@@ -15,7 +15,7 @@ class Solution(object):
     return not stack
 
 # Examples
-print(isValid("()"))      # Output: True
+print(isValid("()"))     
 print(isValid("()[]{}"))  # Output: True
 print(isValid("(]"))      # Output: False
 
