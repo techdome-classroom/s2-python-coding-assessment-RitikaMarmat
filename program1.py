@@ -9,13 +9,13 @@ class Solution(object):
         elif char in bracket_map.keys():
             if not stack or stack[-1] != bracket_map[char]:
                 return False  
-            stack.pop() 
+            stack.pop() is_valid_parentheses
             
     return not stack  
 
 
 user_input = input("Enter a string of parentheses: ")
-if is_valid_parentheses(user_input):
+if (user_input):
     print("The string is valid.")
 else:
     print("The string is invalid.")
