@@ -16,8 +16,8 @@ class Solution(object):
 
 # Examples
 print(isValid("()"))     
-print(isValid("()[]{}"))  # Output: True
-print(isValid("(]"))      # Output: False
+print(isValid("()[]{}"))  
+print(isValid("(]"))      
 
 
 
