@@ -9,7 +9,7 @@ class Solution(object):
         elif char in bracket_map.keys():
             if not stack or stack[-1] != bracket_map[char]:
                 return False  
-            stack.pop()  # Pop the matching opening bracket from the stack
+            stack.pop() 
             
     return not stack  # If the stack is empty, all brackets are matched
 
