@@ -16,9 +16,9 @@ class Solution(object):
     return result
 
 # Examples
-print(romanToInt("III"))    # Output: 3
-print(romanToInt("LVIII"))  # Output: 58
-print(romanToInt("MCMXCIV"))# Output: 1994
+print(romanToInt("III"))    
+print(romanToInt("LVIII"))  
+print(romanToInt("MCMXCIV"))
 
 
 
