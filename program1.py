@@ -16,7 +16,7 @@ class Solution(object):
 
 user_input = input("Enter a string of parentheses: ")
 x=is_valid_parentheses(user_input)
-if is_valid_parentheses(user_input):
+if x:
     print("The string is valid.")
 else:
     print("The string is invalid.")
