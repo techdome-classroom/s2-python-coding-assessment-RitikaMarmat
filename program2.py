@@ -30,5 +30,5 @@ class Solution(object):
 
 
 user_input = input("Enter a Roman numeral: ")
-result = roman_to_int(user_input)
+result = Solution.roman_to_int(user_input)
 print(f"The integer value of the Roman numeral {user_input} is {result}.")
