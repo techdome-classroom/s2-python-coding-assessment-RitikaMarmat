@@ -11,9 +11,9 @@ class Solution(object):
                 return False  
             stack.pop() 
             
-    return not stack  # If the stack is empty, all brackets are matched
+    return not stack  
 
-# Get user input
+
 user_input = input("Enter a string of parentheses: ")
 if is_valid_parentheses(user_input):
     print("The string is valid.")
